@@ -21,11 +21,7 @@ public class Main {
         do{
 
             parola = in.readLine();
-            if(parola == "exit"){
-                break;
-            }
             out.println(parola.toUpperCase());
-            ss.close();
 
         }while(true);
     }
